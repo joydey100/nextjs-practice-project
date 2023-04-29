@@ -1,0 +1,56 @@
+{
+  "blog": [
+    {
+      "id": 1,
+      "title": "Blog 1",
+      "description": "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem nulla quam, sint quas blanditiis vitae fugiat ipsa dolorem consectetur doloremque debitis tenetur nemo laborum sapiente ullam pariatur eveniet dignissimos cumque, eaque reiciendis. Aliquid officia nostrum fugit nemo nam necessitatibus accusamus unde expedita, impedit perferendis consequatur quaerat repudiandae natus quibusdam dolores dolore recusandae doloremque ratione ullam suscipit quod minima. Ut ipsa dolorum eius, esse repellendus, blanditiis omnis iure officia nihil aliquam odit ex natus nisi, tempore ab inventore similique voluptates corporis eos et dignissimos aspernatur! Eius culpa quam ipsam, temporibus vel sequi quisquam non dolorum repellat exercitationem atque sint quis in!"
+    },
+    {
+      "id": 2,
+      "title": "Blog 2",
+      "description": "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem nulla quam, sint quas blanditiis vitae fugiat ipsa dolorem consectetur doloremque debitis tenetur nemo laborum sapiente ullam pariatur eveniet dignissimos cumque, eaque reiciendis. Aliquid officia nostrum fugit nemo nam necessitatibus accusamus unde expedita, impedit perferendis consequatur quaerat repudiandae natus quibusdam dolores dolore recusandae doloremque ratione ullam suscipit quod minima. Ut ipsa dolorum eius, esse repellendus, blanditiis omnis iure officia nihil aliquam odit ex natus nisi, tempore ab inventore similique voluptates corporis eos et dignissimos aspernatur! Eius culpa quam ipsam, temporibus vel sequi quisquam non dolorum repellat exercitationem atque sint quis in!"
+    },
+    {
+      "id": 3,
+      "title": "Blog 3",
+      "description": "      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem nulla quam, sint quas blanditiis vitae fugiat ipsa dolorem consectetur doloremque debitis tenetur nemo laborum sapiente ullam pariatur eveniet dignissimos cumque, eaque reiciendis. Aliquid officia nostrum fugit nemo nam necessitatibus accusamus unde expedita, impedit perferendis consequatur quaerat repudiandae natus quibusdam dolores dolore recusandae doloremque ratione ullam suscipit quod minima. Ut ipsa dolorum eius, esse repellendus, blanditiis omnis iure officia nihil aliquam odit ex natus nisi, tempore ab inventore similique voluptates corporis eos et dignissimos aspernatur! Eius culpa quam ipsam, temporibus vel sequi quisquam non dolorum repellat exercitationem atque sint quis in!"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "title": "Product One",
+      "desc": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem nulla quam, sint quas blanditiis vitae fugiat ipsam",
+      "price": 188,
+      "category": "camera"
+    },
+    {
+      "id": 2,
+      "title": "Product Two",
+      "desc": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem nulla quam, sint quas blanditiis vitae fugiat ipsam",
+      "price": 440,
+      "category": "laptop"
+    },
+    {
+      "id": 3,
+      "title": "Product Three",
+      "desc": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem nulla quam, sint quas blanditiis vitae fugiat ipsam",
+      "price": 270,
+      "category": "mobile"
+    },
+    {
+      "id": 4,
+      "title": "Product Four",
+      "desc": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem nulla quam, sint quas blanditiis vitae fugiat ipsam",
+      "price": 890,
+      "category": "camera"
+    },
+    {
+      "id": 5,
+      "title": "Product Five",
+      "desc": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem nulla quam, sint quas blanditiis vitae fugiat ipsam",
+      "price": 740,
+      "category": "mobile"
+    }
+  ]
+}
