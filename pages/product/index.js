@@ -101,9 +101,15 @@ const Product = ({ products }) => {
 export const getServerSideProps = async (context) => {
   const { query } = context;
   const { category } = query;
-  const queryString = category ? `categroy=${category}` : "";
+  const queryString = category ? `category=${category}` : "";
+  console.log(queryString);
   const response = await fetch(`http://localhost:4000/product?${queryString}`);
   const data = await response.json();
+
+  // Why I have used this querystring in the previous line on serversideprops? I can filter the item, and set the route in the filterCategory function, then why i did that?
+
+  //! Ans: Because, if i have the query and reload the page, it will not show the filteredItem. It will show all the item. If we want to show other's that filtered item, then it will not work if we only use "/product". That's why we used this queryString, if there is a query, then load the data on the basis of query.
+
   return {
     props: {
       products: data,
