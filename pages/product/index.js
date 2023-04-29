@@ -1,13 +1,22 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Product = ({ products }) => {
   const router = useRouter();
   const [allProduct, setAllProduct] = useState(products);
+  const [categories, setCategories] = useState([]);
 
-  //   get unique category
-  const categories = ["All", ...new Set(products.map((item) => item.category))];
+  //   get all categories in inital load
+  useEffect(() => {
+    const getCategories = async () => {
+      const response = await fetch(`http://localhost:4000/product`);
+      const data = await response.json();
+      const categories = ["All", ...new Set(data.map((item) => item.category))];
+      setCategories(categories);
+    };
+    getCategories();
+  }, []);
 
   // filter Category
   const filterCategory = async (category) => {
