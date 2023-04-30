@@ -12,6 +12,9 @@ const Home = () => {
           <li>
             <Link href="/product">Product</Link>
           </li>
+          <li>
+            <Link href="/comments">Comments</Link>
+          </li>
         </ul>
       </div>
     </section>
